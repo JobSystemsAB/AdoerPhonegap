@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.adoer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Adoer</name>
     <description>
-        Adoer - Hitta en doer nära dig!
+        Adoer - Find a doer close to you!
     </description>
     <author email="info@jobsystems.se" href="http://www.jobsystems.se">
-        Jobsystems AB
+        Jobsystems
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />

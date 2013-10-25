@@ -19,6 +19,7 @@
     "underscore": "~1.5.2",
     "stylus": "~0.38.0",
     "fluidity": "~0.2.0",
-    "grunt-contrib-imagemin": "~0.3.0"
+    "grunt-contrib-imagemin": "~0.3.0",
+    "phonegap": "~3.1.0-0.15.0"
   }
 }

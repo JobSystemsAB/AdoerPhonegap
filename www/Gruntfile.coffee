@@ -14,7 +14,7 @@ module.exports = (grunt) ->
 				files: ['src/app/*.coffee', 'src/app/**/*.coffee'],
 				tasks: ['coffee']
 			jade:
-				files: ['src/app/**/*.jade']
+				files: ['src/app/**/*.jade', 'index.jade']
 				tasks: ['jade']
 			scripts:
 				files: ['src/components/*.js']
@@ -35,7 +35,11 @@ module.exports = (grunt) ->
 					src: "src/app/**/*.jade"
 					ext: ".html"
 					expand: true
-                } ]
+                }, {
+					src: "index.jade"
+					ext: ".html"
+					expand: true
+				} ]
 		htmlmin:
 			dist:
 				options: 
